@@ -1,0 +1,83 @@
+<hazelcast>
+	<properties>
+        <property name="hazelcast.logging.type">jdk</property>
+    </properties>
+
+	<map name="*omed.model.MetaClass">
+		<max-size-per-jvm>0</max-size-per-jvm>
+		<time-to-live-seconds>36000</time-to-live-seconds>
+	</map>
+	<map name="*model.meta.ColorRule*">
+		<max-size-per-jvm>0</max-size-per-jvm>
+		<time-to-live-seconds>36000</time-to-live-seconds>
+	</map>
+
+    <map name="omed.bf.BusinessFunction">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="omed.data.TreeFilterCacheManager">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="cardProperties">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+    <map name="gridProperties">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="classValidationRules">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="*model.meta.Subclass">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="*model.meta.MetaGridColumn">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="*model.meta.MetaCardField">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="*model.meta.AppMenu">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="*model.meta.ContextMenu">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="*model.meta.MetaGrid">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="java.lang.String">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="omed.auth.UserRole">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+
+    <map name="omed.auth.PermissionMeta">
+        <max-size-per-jvm>0</max-size-per-jvm>
+        <time-to-live-seconds>36000</time-to-live-seconds>
+    </map>
+</hazelcast>
